@@ -1,8 +1,9 @@
+@import '../../app.component.scss';
+
 footer {
     width: 100%;
     height: 80px;
-    background-color: orange;
-    color: black;
+    background-color: $cor-secundaria;
     .container {
         width: 1140px;
         display: flex;
@@ -10,8 +11,13 @@ footer {
         justify-content: center;
         align-items: center;
         p {
-            font-size: 24px;
+            font-family: $fonte-secundaria;
+            font-size: $grande;
             margin-top: 20px;
+            color: #000000;
+            a {
+                color: $bege-claro;
+            }
         }
     }
 }
