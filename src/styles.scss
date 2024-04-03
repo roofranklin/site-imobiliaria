@@ -3,4 +3,11 @@ html, body {
     padding: 0;
     font-size: 16px;
 }
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.page {
+    min-height: calc(100vh - 170px);
+}
 
